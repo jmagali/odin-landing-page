@@ -43,6 +43,8 @@ ul {
     height: auto;
     margin: 16px;
     border: solid #5C4033 8px;
+    flex-shrink: 1;
+    min-width: 0;
 }
 
 .left-items {
@@ -81,6 +83,7 @@ p {
 
 .stuff {
     display: flex;
+    flex-wrap: wrap;
     padding: 16px;
     justify-content: space-evenly;
 }
@@ -89,7 +92,7 @@ p {
     max-width: 150px;
     height: auto;
     border: solid #5C4033 8px;
-    border-radius: 5%;
+    border-radius: 5%;  
 }
 
 .container p {
