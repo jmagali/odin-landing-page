@@ -2,7 +2,7 @@
 
 <section>
   <h2>Links</h2>
-  <p>Try For Yourself: </p>
+  <p>Try For Yourself: https://jmagali.github.io/odin-landing-page/</p>
 </section>
 <section>
   <h2>About</h2>
