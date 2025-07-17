@@ -1,5 +1,5 @@
 * {
-    font-family: "Lucida Console";
+    font-family: Roboto, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -7,11 +7,11 @@
 
 /* Header Stuff */
 .header {
-    background-color: #987654;
+    background-color: #5C4033;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 32px;
 }
 
 .logo {
@@ -32,7 +32,7 @@ ul {
 .intro {
     background-color: #987654;
     display: flex;
-    padding: 16px;
+    padding: 48px;
     align-items: center;
     justify-content: space-around;
     flex: 1;
@@ -58,6 +58,7 @@ p {
     font-size: 18px;
     max-width: 400px;
     margin: 8px;
+    text-wrap: wrap;
 }
 
 .sign-up {
@@ -67,4 +68,101 @@ p {
     border: none;
     margin: 8px;
     border-radius: 20%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+/* Info stuff */
+.info {
+    padding: 98px;
+    background-color: #EBDDC3;
+    text-align: center;
+}
+
+.stuff {
+    display: flex;
+    padding: 16px;
+    justify-content: space-evenly;
+}
+
+.container img {
+    max-width: 150px;
+    height: auto;
+    border: solid #5C4033 8px;
+    border-radius: 5%;
+}
+
+.container p {
+    max-width: 200px;
+}
+
+/* Quote stuff */
+.quote {
+    background-color: #87785F;
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    margin: 0;
+    flex-direction: column;
+}
+
+.text {
+    max-width: 800px;
+    font-size: 20px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.box {
+    padding: 8px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/* Sign-up stuff */
+
+.bottom {
+    padding: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign {
+    background-color: #987654;
+    padding: 48px;
+    display: flex;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.sign .left-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h3 {
+    margin: 0 0 8px 0;
+}
+
+.sign p {
+    margin: 0;
+}
+
+/* footer */
+.footer {
+    background-color: #5C4033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    color: white;
 }
